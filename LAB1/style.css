@@ -2,9 +2,9 @@
     margin: 10px;
 }
 .contacts{
-    line-height: 26px;}
-footer{
-    position: absolute;
-    bottom: 0;
+    line-height: 26px;}  
+footer{                
+    position: bottom;
+    bottom: 0;            /* -- footer always at the bottom of page */
     left: 20px;
 }
