@@ -1,3 +1,5 @@
+<!-- Форма реєстрації нового користувача (логін, пароль, 
+підтвердити пароль, пошта, стать, номер телефону, біографія, аватар, згода з умовами).-->
 <!DOCTYPE html>
 <html lang="ua">
 
@@ -6,5 +8,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="vitalii" content="width=device-width, initial-scale=1.0">
     <title>Реєстрація</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.style.css">
 </head>
+    <header>
+        <h1><center>Реєстрація нового користувача</center></h1><hr>
+        <center><h3><a href="index.html"class="nolinkdesign">Основна Сторінка</a> | <a href="feedback.html"class="nolinkdesign">Зворотній зв'язок</a> | <a href="author.html"class="nolinkdesign">Автор</a></center><hr>
+    </header>
+<body>
+    <main>
+        <div>
+        <form>
+            <fieldset>
+                <legend>Реєстрація нового користувача</legend>
+                <div class="firstblock">
+                <label for="name">Ім'я: <br> </label><input type="text" placeholder="Напр: Іван"><br><br>
+                <label for="surname">Прізвище: <br> </label><input type="text" placeholder="Напр: Іванов"><br><br>
+                <label for="login">Нікнейм: <br></label><input type="text" placeholder="Напр: Vanya228"><br><br>
+                <label for="email">Email: <br></label><input type="text" placeholder="email@example.com"><br><br>
+                <label for="pass">Пароль: <br></label><input type="password", placeholder="Створіть складний пароль"><br><br>
+                <label for="confirmpass">Підтвердіть пароль: <br></label><input type="password", placeholder="Повторіть пароль"><br>
+                </div>
+                <div class="secondblock">
+                <label for="sex">Стать: <br> </label><input name="sex" type="radio", value="man"> Чоловік <input name="sex" type="radio" value="women"> Жінка <br><br>
+                <label for="phone">Номер телефону: <br></label> <input type="tel" name="tel"><br>
+                </div>
+            </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
