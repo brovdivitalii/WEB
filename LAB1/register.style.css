@@ -4,9 +4,51 @@ body{
 }
 .firstblock{
     float:left;
-    width:220px;
+    width:210px;
 }
 .secondblock{
+    float:left;
+    width:160px;
     
- 
 }
+.avatar{
+    float:left;
+    padding-left: 70px;
+}.bio{
+    float: left;
+    padding-left: 20px;
+    border-color: rgb(118, 175, 175);
+  
+    
+}
+.contacts{
+    line-height: 26px;}  
+footer{  
+    font-family: sans-serif;
+    font-size: large;
+    background-color: #f7ffb0;              
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    clear: both;
+    position: absolute;
+    left: 0;
+    bottom: 27px;
+    width: 97.6566%;
+    height: 200px;
+}
+footer:hover{
+    background-color: antiquewhite;
+}
+.nolinkdesign {
+    color: inherit;
+    text-decoration:none; 
+}
+a:hover{
+    text-decoration: underline ;
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
+  }
