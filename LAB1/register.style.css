@@ -14,7 +14,8 @@ body{
 .avatar{
     float:left;
     padding-left: 70px;
-}.bio{
+}
+.bio{
     float: left;
     padding-left: 20px;
     border-color: rgb(118, 175, 175);
@@ -22,7 +23,8 @@ body{
     
 }
 .contacts{
-    line-height: 26px;}  
+    line-height: 26px;
+}  
 footer{  
     font-family: sans-serif;
     font-size: large;
@@ -47,8 +49,25 @@ footer:hover{
 }
 a:hover{
     text-decoration: underline ;
+    text-shadow: #e6ff02 1px 0px 30px;
+    color: #349696;
 }
 .wrapper {
     position: relative;
     min-height: 100%;
+  }
+  .phone{
+      float: left;
+      width: 250px;
+  }
+  .category{
+      float: left;
+      width: 400px;
+      height: 200px;
+      
+  }
+  .feedback1{
+      float: left;
+      width: 250px;
+      height: 200px;
   }

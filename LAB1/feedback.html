@@ -1,3 +1,6 @@
+<!-- 2. Формою зворотного зв'язку (номер телефону для зворотного зв'язку, категорія 
+    (підтримка, побажання, скарга, тощо.), тема, текст повідомлення, прикріпити файл,
+     вибір способу для зворотного зв'язку (SMS, Viver, Telegram, ...) )-->
 <!DOCTYPE html>
 <html lang="ua">
 
@@ -6,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="vitalii" content="width=device-width, initial-scale=1.0">
     <title>Зворотній зв'язок</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register.style.css">
 </head>
     <header>
         <h1><center>Зворотній зв'язок</center></h1><hr>
@@ -15,6 +18,47 @@
 
 <body>
     <main>
-        
+        <div>
+            <form action="">
+                <fieldset>
+                    <legend>Зворотній зв'язок</legend>
+                    <div class="phone">
+                        <br><br><label for="phone">Номер телефону: <br></label> <input type="tel" name="tel"><br><br>
+                        <label for="name1">Як до вас звертатись? <br></label><input type="text">
+                    </div>
+                    <div class="category">
+                        <br><br><label for="cat">Категорія: <br><br></label><input type="radio" name="cat">  &nbsp;Підтримка <input type="radio" name="cat">Побажання
+                        <br><input type="radio" name="cat"> &nbsp;Скарга&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="cat">Тощо
+                        <br><br><center><label for="file">Файл за потреби: <br></label><input type="file" name="file" accept="image/*"></center><hr><br>
+                        <center> <label for="rules">Чи згодні ви з усіма <a href="empty.page.html"target="_blank">умовами обробки інформації</a>?</label><input type="checkbox" name="rules" id="rules"></center>   
+                        <br><hr><br>
+                   <center><button>Відправити!</button></center>
+                    </div>
+                    <div class="feedback1">
+                       <br> <br><label for="feedback1">Зв'язатись з вами: <br><br></label><input type="radio" name="soc">Viber <br> <input type="radio" name="soc">Telegram
+                    </div>
+                    <div class="yourtext">
+                       <br><br> <label for="tema">Тема повідомлення:&nbsp;&nbsp;</label> <input type="text" placeholder="Можна залишити пустим*">
+                        <br><br><label for="yourtext1">Ваше повідомлення: <br><br></label>
+                        <textarea name="yourtext" id="yourtext" cols="100" rows="10" placeholder="Мінімум: 50 символів"></textarea> 
+                    </div>
+                    <br><br>
+                </fieldset>
+            </form>
+        </div>
     </main>
+    <footer>
+        <hr>
+        <div class="wrapper">     
+            <div class="contacts" id="contacts"><ul>
+            <h3>Контакти автора:</h1>
+            <li><b>Email:</b> <a href="mailto: brovdi.vitalii@student.uzhnu.edu.ua" class="nolinkdesign">brovdi.vitalii@student.uzhnu.edu.ua</a></li>
+            <li><b>Telegram/Viber: </b><a href="tel: +380957489716" class="nolinkdesign" >+380957489716</a></li>
+            <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/vitalii-brovdi-026b0622b/" target="_blank" class="nolinkdesign">Brovdi Vitalii</a></li>
+            <li><i><a href="author.html" class="nolinkdesign" target="_blank">Більше про автора...</a></i></li>
+            </ul>
+            </div>
+        </div>
+
+    </footer>
 </body>

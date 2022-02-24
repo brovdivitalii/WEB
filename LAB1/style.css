@@ -32,6 +32,8 @@ footer:hover{
 }
 a:hover{
     text-decoration: underline ;
+    text-shadow: #e6ff02 1px 0px 30px;
+    color: #349696;
 } 
 .mainphoto{
     margin-right: 10px;
