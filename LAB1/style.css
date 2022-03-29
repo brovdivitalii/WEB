@@ -51,9 +51,10 @@ footer{
     clear: both;
     position: relative;
     height: 200px;
+    transition: 1s;
 }
 footer:hover{
-    background-color: antiquewhite;
+    background-color: rgb(212, 161, 95);
 }
 .nolinkdesign {
     color: inherit;
@@ -83,6 +84,6 @@ a:hover{
     text-align: center;
 }
 .animbutton:hover {
-    transform: scale(1.5); 
+    transform: scale(1.15); 
     background-color: #82ffee;
    }
