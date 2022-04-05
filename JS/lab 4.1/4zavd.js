@@ -11,7 +11,7 @@ do
 }while(w<0 || isNaN(w));
 
 do
-{
+{ 
     c = Number(prompt("кількість елементів = "));
 }while(c<0 || isNaN(c));
 
