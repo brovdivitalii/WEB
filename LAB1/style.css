@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 100px;
+    /* margin-left: 100px; */
    /* margin-right: 10px; */
 }
 .menu{
