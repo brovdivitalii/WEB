@@ -1,6 +1,10 @@
-let a = function()
+let a = function(n1,n2,n3,n4)
 {
-    do
+    return n1*n2*n3*n4;
+};
+
+
+do
     {
     n1 = Number(prompt("введіть 1 число: "))
     }while(isNaN(n1));
@@ -16,6 +20,5 @@ let a = function()
     {
     n4 = Number(prompt("введіть 4 число: "))
     }while(isNaN(n4));
-    n1 = n1*n2*n3*n4;
-    alert(n1);
-}();
+
+alert(a(n1,n2,n3,n4))

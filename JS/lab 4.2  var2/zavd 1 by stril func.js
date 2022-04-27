@@ -9,10 +9,10 @@ do
 td = Number(prompt("введіть к-сть стовпців : "))
 }while(isNaN(td) || td < 0);
 
-
-var create_table = (myRows, myCols) =>
+var id1 = document.getElementById ('main_tb_container');
+var create_table = (myRows, myCols,id2) =>
     {
-    var ta = document.getElementById ('main_tb_container');
+    var ta = id2;
                 
     for (var i = 0; i < myRows; i++)
         {
@@ -24,4 +24,4 @@ var create_table = (myRows, myCols) =>
             }
         }
     }
-create_table(tr,td)
+create_table(tr,td,id1)
