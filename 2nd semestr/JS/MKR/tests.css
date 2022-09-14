@@ -1,0 +1,7 @@
+table td, tr{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    margin-left: 30px;
+}

@@ -1,0 +1,109 @@
+body{
+    background-color: #e8ffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstblock{
+    float:left;
+    width:210px;
+}
+.secondblock{
+    float:left;
+    width:160px;
+    
+}
+.photo{
+    float: left;
+    padding-left:70px;
+    padding-right: 20px;
+    height: 200px;
+    border: #223131;
+}
+.bio{
+    float: left;
+    padding-left: 20px;
+    border-color: rgb(118, 175, 175);
+  
+    
+}
+.contacts{
+    line-height: 26px;
+}  
+footer{  
+    font-family: sans-serif;
+    font-size: large;
+    background-color: #f7ffb0;              
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    clear: both;
+    position: relative;
+    width: 97.6566%;
+    height: 180px;
+    transition: 1s;
+}
+footer:hover{
+    background-color: rgb(212, 161, 95);
+}
+
+  .phone{
+      float: left;
+      width: 250px;
+  }
+  .category{
+      float: left;
+      width: 400px;
+      height: 200px;
+      
+  }
+
+  .feedback1{
+      float: left;
+      width: 250px;
+      height: 200px;
+  }
+  .nolinkdesign {
+    color: inherit;
+    text-decoration:none; 
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+   /* margin-right: 10px; */
+}
+.menu{
+    display: inline-block;
+    background-color: #f7ffb0;
+    border: #223131;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    
+}
+.searching{
+    display:flex;
+    justify-content: right;
+    margin-right: 10px;
+}
+.bigword{
+    font-size: 30pt;
+    transition: 3s;
+    text-align: center;
+}
+.bigword:hover{
+    transform: scale(1.3);
+}
+.animbutton{
+    display: inline-block;
+    color: inherit;
+    text-decoration:none;
+    transition: 0.6s;
+    text-align: center;
+}
+.animbutton:hover {
+    transform: scale(1.15); 
+    background-color: #82ffee;
+   }

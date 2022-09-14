@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ua">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>document</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://unpkg.com/vue@3"></script>
+   </head>
+   <div id="app">
+      <div>
+         <label>
+         Num1 
+         <input type="number" v-model="num1">
+         </label>
+      </div>
+      <div>Ви ввели {{num1}}</div>
+      <div> 
+         <label>
+         Num2 
+         <input type="number" v-model="num2">
+         </label>
+      </div>
+      <div>Sum = <span>{{mySum}}</span></div>
+      </label>
+   </div>
+   <script> 
+      const { createApp } = Vue
+      window.app= createApp({
+        data() {
+          return {
+            message: 'Hello Vue!',
+            num1:0,
+            num2:0
+          }
+        },
+        computed:{
+            mySum(){
+                return this.num1+this.num2
+            }
+        }
+      }).mount('#app')
+   </script>

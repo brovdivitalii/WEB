@@ -1,0 +1,91 @@
+<!-- Форма реєстрації нового користувача (логін, пароль, 
+підтвердити пароль, пошта, стать, номер телефону, біографія, аватар, згода з умовами).-->
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="register.style.css">
+</head>
+    <header>
+        <div id="header">
+            <div class="wrapper">
+                <div id="bigword"> 
+                    <center> <h2 class="bigword">Реєстрація нового користувача</h2></center>
+                </div>
+                <div class="menu">
+                    <b>
+                    <center>
+                    <span><a href="index.html"class="nolinkdesign"> <span class="animbutton">&nbsp;Основа сторінка&nbsp;</span></a></span>
+                    <span><a href="feedback.html"class="nolinkdesign"><span class="animbutton">&nbsp;Зворотній зв'язок&nbsp;</span></a></span>
+                    </center>
+                    <br><br>
+                    <center>
+                    <span><a href="author.html"class="nolinkdesign"><span class="animbutton">&nbsp;Автор&nbsp;</span></a></span>
+                    <span><a href="#firstpar"class="nolinkdesign"><span class="animbutton">&nbsp;Стаття&nbsp;</span></a></span>
+                    <span><a href="#contacts"class="nolinkdesign"><span class="animbutton">&nbsp;Контакти&nbsp;</span></a></span>
+                    </center>
+                    </b>
+                </div>
+            </div>    
+            </div>  
+            <br>
+    </header>
+<body>
+    <main>
+        <div>
+        <form>
+            <fieldset>
+                <legend>Реєстрація нового користувача</legend>
+                <div class="firstblock">
+                <label for="name">Ім'я: <br> </label><input type="text" placeholder="Напр: Іван"><br><br>
+                <label for="surname">Прізвище: <br> </label><input type="text" placeholder="Напр: Іванов"><br><br>
+                <label for="login">Нікнейм: <br></label><input type="text" placeholder="Напр: Vanya228"><br><br>
+                <label for="email">Email: <br></label><input type="text" placeholder="email@example.com"><br><br>
+                </div>
+                <div class="secondblock">
+                    <label for="pass">Пароль: <br></label><input type="password", placeholder="Створіть складний пароль"><br><br>
+                <label for="confirmpass">Підтвердіть пароль: <br></label><input type="password", placeholder="Повторіть пароль"><br><br>
+                <label for="sex">Стать: <br> </label><input name="sex" type="radio", value="man"> Чоловік <input name="sex" type="radio" value="women"> Жінка <br><br>
+                <label for="phone">Номер телефону: <br></label> <input type="tel" name="tel"><br><br>
+                </div><br>
+                <div class="avatar">
+                    <label for="file">
+                        <center>Аватар: <br></label><input type="file" name="file" accept="image/*">
+                        </center>
+                        <hr>
+                    <br>
+                    <br>
+                    <center>
+                        <label for="rules">Чи згодні ви з усіма <a href="empty.page.html"target="_blank">умовами</a>?</label><input type="checkbox" name="rules" id="rules">
+                    </center>
+                    <br><br><br><hr>
+                   <center><button>Зареєструватись!</button></center>
+                </div>
+                
+                 <div class="bio">
+                    <label for="bio">Про вас (Біографія): <br><br></label>
+                    <textarea name="bio" id="bio" cols="100" rows="10" placeholder="Мінімум: 200 символів"></textarea> 
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+    <br><br>
+    <footer>
+        <hr>
+        <div class="wrapper">     
+            <div class="contacts" id="contacts"><ul>
+            <h3>Контакти автора:</h1>
+            <li><b>Email:</b> <a href="mailto: brovdi.vitalii@student.uzhnu.edu.ua" class="nolinkdesign">brovdi.vitalii@student.uzhnu.edu.ua</a></li>
+            <li><b>Telegram/Viber: </b><a href="tel: +380957489716" class="nolinkdesign" >+380957489716</a></li>
+            <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/vitalii-brovdi-026b0622b/" target="_blank" class="nolinkdesign">Brovdi Vitalii</a></li>
+            <li><i><a href="author.html" class="nolinkdesign">Більше про автора...</a></i></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
